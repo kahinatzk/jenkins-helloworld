@@ -1,6 +1,6 @@
 node {
     stage('Clone') {
-        git 'https://github.com/alphorm-working/mvn-helloworld.git'
+        git 'https://github.com/kahinatzk/jenkins-helloworld.git'
     }
     stage('Build') {
         sh 'javac Main.java'
